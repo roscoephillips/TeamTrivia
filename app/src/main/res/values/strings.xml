@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">Trivial Tango</string>
+
+
+    <!--Team A's name.  Editable field.-->
+    <string name="team_a_name">Team A Name</string>
+
+    <!--Team B's name.  Editable field.-->
+    <string name="team_b_name">Team B Name</string>
+
+    <!--Score for Team A-->
+    <string name="score_team_a">0</string>
+
+    <!--Score for Team B-->
+    <string name="score_team_b">0</string>
+
+    <!--Button text for adding 10 pts.-->
+    <string name="question_easy">+10 (Easy)</string>
+
+    <!--Button text for adding 30 pts.-->
+    <string name="question_moderate">+30 (Moderate)</string>
+
+    <!--Button text for adding 50 pts.-->
+    <string name="question_hard">+50 (Hard)</string>
+
+    <!--Button text for losing 10 pts.-->
+    <string name="question_miss">-10 (Miss)</string>
+    
+    <!--Button for resetting scores.-->
+    <string name="reset_scores">Reset Scores</string>
+
+    <!--Button for submitting scores.-->
+    <string name="submit_score">Total Scores</string>
+
+    <!--This Toast message will appear if Team A wins.-->
+    <string name="team_a_wins"><xliff:g example="Team A" id="team">%1$s</xliff:g> wins with <xliff:g example="0" id="teamAScore">%2$d</xliff:g> points.  Congratulations!</string>
+
+    <!--This Toast message will appear if Team B wins.-->
+    <string name="team_b_wins"><xliff:g example="Team B" id="team">%1$s</xliff:g> wins with <xliff:g example="0" id="teamBScore">%2$d</xliff:g> points.  Congratulations!</string>
+
+    <!--This Toast message will appear in the event of a tie.-->
+    <string name="both_teams_tie">Nice!  Both teams are tied with a score of <xliff:g example="0" id="teamAScore">%1$d</xliff:g> points!</string>
+
+</resources>
