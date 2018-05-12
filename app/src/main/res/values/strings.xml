@@ -3,7 +3,6 @@
 
     <string name="app_name">Trivial Tango</string>
 
-
     <!--Team A's name.  Editable field.-->
     <string name="team_a_name">Team A Name</string>
 
@@ -27,7 +26,7 @@
 
     <!--Button text for losing 10 pts.-->
     <string name="question_miss">-10 (Miss)</string>
-    
+
     <!--Button for resetting scores.-->
     <string name="reset_scores">Reset Scores</string>
 
@@ -42,5 +41,6 @@
 
     <!--This Toast message will appear in the event of a tie.-->
     <string name="both_teams_tie">Nice!  Both teams are tied with a score of <xliff:g example="0" id="teamAScore">%1$d</xliff:g> points!</string>
+
 
 </resources>

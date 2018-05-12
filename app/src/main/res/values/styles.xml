@@ -7,4 +7,25 @@
         <item name="android:textColorPrimary">@android:color/black</item>
     </style>
 
+    <!-- This is the style for the EditText field for team names. -->
+    <style name="team_name">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:gravity">center</item>
+        <item name="android:inputType">text</item>
+        <item name="android:paddingBottom">@dimen/spacing_16</item>
+        <item name="android:paddingTop">@dimen/spacing_16</item>
+        <item name="android:textSize">@dimen/team_name_size</item>
+        <item name="android:textColor">#303030</item>
+    </style>
+
+    <!-- This is the style for the score buttons -->
+    <style name="button_for_scores">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/spacing_8</item>
+        <item name="android:layout_marginTop">@dimen/spacing_8</item>
+    </style>
+
 </resources>

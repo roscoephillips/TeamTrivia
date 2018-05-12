@@ -2,8 +2,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FAFAFA"
     android:layout_marginTop="@dimen/spacing_16"
+    android:background="#FAFAFA"
     android:orientation="vertical">
 
     <LinearLayout
@@ -22,16 +22,9 @@
 
             <EditText
                 android:id="@+id/team_a_name"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                style="@style/team_name"
                 android:fontFamily="sans-serif-smallcaps"
-                android:gravity="center"
-                android:hint="@string/team_a_name"
-                android:inputType="text"
-                android:paddingBottom="@dimen/spacing_16"
-                android:paddingTop="@dimen/spacing_16"
-                android:textColor="#303030"
-                android:textSize="@dimen/team_name_size" />
+                android:hint="@string/team_a_name" />
 
             <TextView
                 android:id="@+id/team_a_score"
@@ -44,37 +37,25 @@
                 android:textSize="@dimen/score_size" />
 
             <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/spacing_8"
-                android:layout_marginTop="@dimen/spacing_8"
+                style="@style/button_for_scores"
                 android:background="#4CAF50"
                 android:onClick="teamA10Pts"
                 android:text="@string/question_easy" />
 
             <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/spacing_8"
-                android:layout_marginTop="@dimen/spacing_8"
+                style="@style/button_for_scores"
                 android:background="#FFC107"
                 android:onClick="teamA30Pts"
                 android:text="@string/question_moderate" />
 
             <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/spacing_8"
-                android:layout_marginTop="@dimen/spacing_8"
+                style="@style/button_for_scores"
                 android:background="#F44336"
                 android:onClick="teamA50Pts"
                 android:text="@string/question_hard" />
 
             <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/spacing_8"
-                android:layout_marginTop="@dimen/spacing_8"
+                style="@style/button_for_scores"
                 android:background="#03A9F4"
                 android:onClick="teamAMiss"
                 android:text="@string/question_miss" />
@@ -97,16 +78,9 @@
 
             <EditText
                 android:id="@+id/team_b_name"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                style="@style/team_name"
                 android:fontFamily="sans-serif-smallcaps"
-                android:gravity="center"
-                android:hint="@string/team_b_name"
-                android:inputType="text"
-                android:paddingBottom="@dimen/spacing_16"
-                android:paddingTop="@dimen/spacing_16"
-                android:textColor="#303030"
-                android:textSize="@dimen/team_name_size" />
+                android:hint="@string/team_b_name" />
 
             <TextView
                 android:id="@+id/team_b_score"
@@ -119,37 +93,25 @@
                 android:textSize="@dimen/score_size" />
 
             <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/spacing_8"
-                android:layout_marginTop="@dimen/spacing_8"
+                style="@style/button_for_scores"
                 android:background="#4CAF50"
                 android:onClick="teamB10Pts"
                 android:text="@string/question_easy" />
 
             <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/spacing_8"
-                android:layout_marginTop="@dimen/spacing_8"
+                style="@style/button_for_scores"
                 android:background="#FFC107"
                 android:onClick="teamB30Pts"
                 android:text="@string/question_moderate" />
 
             <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/spacing_8"
-                android:layout_marginTop="@dimen/spacing_8"
+                style="@style/button_for_scores"
                 android:background="#F44336"
                 android:onClick="teamB50Pts"
                 android:text="@string/question_hard" />
 
             <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/spacing_8"
-                android:layout_marginTop="@dimen/spacing_8"
+                style="@style/button_for_scores"
                 android:background="#03A9F4"
                 android:onClick="teamBMiss"
                 android:text="@string/question_miss" />
